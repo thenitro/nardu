@@ -7,7 +7,7 @@
   #include "WProgram.h"
 #endif
 
-#include "Math.h"
+#include "TMath.h"
 
 #define MIN_DISTANCE 5
 #define MAX_DISTANCE 400
