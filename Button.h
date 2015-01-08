@@ -17,6 +17,7 @@ class Button
 	
 	private:
 		int _inputPin;
+		int _lastButtonState;
 
 		void (*_callback)();
 };
