@@ -1,5 +1,4 @@
-#ifndef Sonar_h
-#define Sonar_h
+#pragma once
 
 #if (ARDUINO >= 100)
   #include "Arduino.h"
@@ -36,5 +35,3 @@ class Sonar {
 
 		void (*_callback)(int);
 };
-
-#endif

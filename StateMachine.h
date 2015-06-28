@@ -1,5 +1,4 @@
-#ifndef StateMachine_h
-#define StateMachine_h
+#pragma once
 
 #if (ARDUINO >= 100)
   #include "Arduino.h"
@@ -18,5 +17,3 @@ class StateMachine {
 		
 
 };
-
-#endif

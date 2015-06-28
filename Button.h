@@ -1,5 +1,4 @@
-#ifndef Button_h
-#define Button_h
+#pragma once
 
 #if (ARDUINO >= 100)
 	#include "Arduino.h"
@@ -21,5 +20,3 @@ class Button
 
 		void (*_callback)();
 };
-
-#endif
